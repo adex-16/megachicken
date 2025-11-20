@@ -57,7 +57,8 @@ button {
     border: none;
     border-radius: 5px;
 }
-.box{
+
+.box {
     height: 150px;
     width: 300px;
     margin-top: -100px;
@@ -67,17 +68,34 @@ button {
     justify-content: space-between;
 }
 
-.box h1{
+.box h1 {
     color: white;
     font-weight: 700;
     font-size: 60px;
 }
-.box p{
+
+.box p {
     color: white;
     font-size: 20px;
     font-weight: 300;
 }
-.box button{
+
+.box button {
     background-color: #ffd112;
     color: #8f7c2e;
+}
+.main{
+    height: 1051px;
+    width: 100%;
+    background-image: url(../img/foodvectorimage.jpg);
+    background-size: contain;
+    background-color: none;
+}
+.main-inner{
+display: flex;
+justify-content: center;
+}
+.main-inner img{
+    height: 356px;
+    width: 713px;
 }
