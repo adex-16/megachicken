@@ -24,7 +24,7 @@ body {
 .header-inner {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.61);
@@ -59,13 +59,13 @@ button {
 }
 
 .box {
-    height: 150px;
+    height: 200px;
     width: 300px;
-    margin-top: -100px;
-    padding-left: 68px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 10rem;
+    margin-left: 5rem;
 }
 
 .box h1 {
@@ -84,18 +84,60 @@ button {
     background-color: #ffd112;
     color: #8f7c2e;
 }
-.main{
+
+.main {
     height: 1051px;
     width: 100%;
     background-image: url(../img/foodvectorimage.jpg);
     background-size: contain;
     background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.main-inner{
-display: flex;
-justify-content: center;
+
+.main-inner {
+    display: flex;
+    justify-content: center;
 }
-.main-inner img{
+
+.main-inner img {
     height: 356px;
     width: 713px;
+}
+
+.mother {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mother div {
+    width: 50%;
+    height: 100%;
+}
+
+.mother .bigimg {
+    background-image: url(../img/yam\ \(3\).jpg);
+    background-size: contain;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.mother .otherfoods {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    column-gap: 40px;
+}
+
+.mother .otherfoods img {
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
 }
