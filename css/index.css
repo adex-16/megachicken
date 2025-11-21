@@ -122,12 +122,12 @@ button {
 .mother .bigimg {
     background-image: url(../img/yam\ \(3\).jpg);
     background-size: contain;
-    width: 30%;
+    width: 28%;
     border-radius: 20px;
 }
 
 .mother .otherfoods {
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -137,7 +137,194 @@ button {
 }
 
 .mother .otherfoods img {
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
     border-radius: 20px;
+}
+
+.section3 {
+    background-color: #fff7d7;
+    width: 100%;
+    height: 373px;
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+}
+
+.section3-inner {
+    width: 59%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section3-inner h1 {
+    font-size: 2rem;
+    color: #c31e20;
+}
+
+.section3-inner p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(78, 78, 78, 0.726);
+}
+
+.mega-logo {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.mega-logo img {
+    width: auto;
+    height: 80%;
+}
+
+.section4 {
+    background-color: #fff7d7;
+    width: 100%;
+    height: 538px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.insec4 {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt4 {
+    transition: .3s;
+    background-color: #ffd112;
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.txt4:hover {
+    background-color: #8a846f;
+    cursor: grab;
+}
+
+.txt4 p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.bgimg4 {
+    background-color: #64625a;
+    width: 100%;
+    height: 80%;
+    border-radius: 0 0 20px 20px;
+    background-size: contain;
+}
+
+.img41 {
+    background-image: url(../img/side-view-pizza-with-chopped-pepper-board-cookware.jpg);
+}
+
+.img42 {
+    background-image: url(../img/street-food-still-life.jpg);
+}
+
+.img43 {
+    background-image: url(../img/english-breakfast-toast-egg-bacon-vegetables-rustic-style-wooden-table.jpg);
+    background-size: cover;
+    background-position-y:-70px ;
+}
+
+
+.section5 {
+    background-color: #5c532f;
+    width: 100%;
+    height: 736px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.txt5{
+     width: 100%;
+    height: 30%; 
+    background-color: #5c5022;
+    text-align: center;
+}
+.carryinsec{
+     width: 100%;
+    height: 70%; 
+    background-color: #ffd112;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section5 .insec5 {
+    width: 43%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insec5 .oftxt {
+    transition: .3s;
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.oftxt p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.oftxt button {
+    width: 48%;
+    height: 70%;
+    background-color: #c31e20;
+    border-radius: 6px;
+     font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.bgimg5 {
+    background-color: #64625a;
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    border-radius: 10px;
+    background-size: contain;
+    
+}
+
+.img51{
+    background-image: url(../img/megachickenimage1.jfif);
+    background-size: cover;
+}
+.img52{
+    background-image: url(../img/megachickenimage2.jfif);
 }
