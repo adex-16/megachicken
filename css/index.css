@@ -420,33 +420,39 @@ button {
     /* height:210px; */
     gap: 30px;
     margin: auto;
-    background-color: pink;
+    background-color: #272727;
     color: #f8edd1;
 }
-.footer-left{
+
+.footer-left {
     display: flex;
     gap: 50px;
     width: 100%;
     justify-content: space-between;
 }
+
 .footer-topleft img {
     width: 80px;
     height: 62px;
 }
-.footer-topleft p{
+
+.footer-topleft p {
     color: #ffd112;
 }
-.footer-topright{
+
+.footer-topright {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.footer-bottomleft{
+
+.footer-bottomleft {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.copyrights{
+
+.copyrights {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -454,15 +460,27 @@ button {
     padding: 10px;
     border-top: 0.3px solid grey;
 }
-.inputholder{
+
+.inputholder {
     height: 48px;
     width: 319px;
     background-color: #fff7d7;
+    gap: none;
+    border: none;
+    border-radius: 2px;
 }
-input{
-    height: 48px;
 
+input {
+    height: 47px;
+    background-color: #272727;
+    color: #717171;
+    border:1px solid #fff7d7 ;
+    border-radius: 2px 0 0 2px;
 }
-button{
+
+button {
     height: 48px;
+    background-color: #fff7d7;
+    border: none;
+    border-radius: 0 5px 5px 0;
 }
