@@ -50,14 +50,19 @@ body {
     color: #f4e9ca;
     text-decoration: none;
 }
-
+.redirect a:hover{
+    border-bottom: 2px solid #ffd112;
+    transition: border-color 0.3s ease;
+}
 button {
     height: 46px;
     width: 137px;
     border: none;
     border-radius: 5px;
 }
-
+.order button:hover{
+color: #4f260e;
+}
 .box {
     height: 200px;
     width: 300px;
@@ -84,7 +89,9 @@ button {
     background-color: #ffd112;
     color: #8f7c2e;
 }
-
+.box button:hover{
+    color: white;
+}
 .main {
     height: 1051px;
     width: 100%;
@@ -101,9 +108,15 @@ button {
     justify-content: center;
 }
 
+.main-inner h1{
+    color: #c31e20;
+}
 .main-inner img {
     height: 356px;
     width: 713px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 .mother {
@@ -326,7 +339,10 @@ button {
     font-weight: 500;
     color: white;
 }
-
+.oftxt button:hover{
+    background-color: black;
+    color: #ffd112;
+}
 .bgimg5 {
     background-color: #64625a;
     width: 100%;
@@ -478,7 +494,7 @@ input {
     border-radius: 2px 0 0 2px;
 }
 
-button {
+.button {
     height: 48px;
     background-color: #fff7d7;
     /* border: none; */
